@@ -4,11 +4,11 @@ This guide will help you set up, run, and test the project locally using Spring 
 
 ## How to build and run the project
 ### from the root of the project type the following commands
-- "docker-compose up -d"
+- "docker-compose up -d" :
 this will start a PostgreSQL container, expose port 5432 and setup the initial database as configured in application.yaml
-- "mvn clean install"
+- "mvn clean install" :
 this will build the code
-- "mvn spring-boot:run"
+- "mvn spring-boot:run" :
 this will start the project, that will be available at http://localhost:8080
 
 ## How to test the project
@@ -38,5 +38,5 @@ to stop and remove the data base container "docker-compose down"
 - **Docker Desktop**
 
 ## Author
-Shay Gabai
+Shay Gabai- 
 built as part of a home assignment for the TDP 2025 program
